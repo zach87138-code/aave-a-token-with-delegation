@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-import {IAaveIncentivesController} from 'aave-v3-core/contracts/interfaces/IAaveIncentivesController.sol';
-import {IPool} from 'aave-v3-core/contracts/interfaces/IPool.sol';
+import {IAaveIncentivesController} from 'aave-v3-origin/contracts/interfaces/IAaveIncentivesController.sol';
+import {IPool} from 'aave-v3-origin/contracts/interfaces/IPool.sol';
 import {IncentivizedERC20} from './IncentivizedERC20.sol';
 
 /**

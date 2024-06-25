@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-import {IERC20} from 'aave-v3-core/contracts/dependencies/openzeppelin/contracts/IERC20.sol';
-import {GPv2SafeERC20} from 'aave-v3-core/contracts/dependencies/gnosis/contracts/GPv2SafeERC20.sol';
+import {IERC20} from 'aave-v3-origin/contracts/dependencies/openzeppelin/contracts/IERC20.sol';
+import {GPv2SafeERC20} from 'aave-v3-origin/contracts/dependencies/gnosis/contracts/GPv2SafeERC20.sol';
 import {SafeCast} from './dependencies/SafeCast.sol';
-import {VersionedInitializable} from 'aave-v3-core/contracts/protocol/libraries/aave-upgradeability/VersionedInitializable.sol';
-import {Errors} from 'aave-v3-core/contracts/protocol/libraries/helpers/Errors.sol';
-import {WadRayMath} from 'aave-v3-core/contracts/protocol/libraries/math/WadRayMath.sol';
-import {IPool} from 'aave-v3-core/contracts/interfaces/IPool.sol';
+import {VersionedInitializable} from 'aave-v3-origin/contracts/protocol/libraries/aave-upgradeability/VersionedInitializable.sol';
+import {Errors} from 'aave-v3-origin/contracts/protocol/libraries/helpers/Errors.sol';
+import {WadRayMath} from 'aave-v3-origin/contracts/protocol/libraries/math/WadRayMath.sol';
+import {IPool} from 'aave-v3-origin/contracts/interfaces/IPool.sol';
 import {IAToken} from './interfaces/IAToken.sol';
-import {IAaveIncentivesController} from 'aave-v3-core/contracts/interfaces/IAaveIncentivesController.sol';
+import {IAaveIncentivesController} from 'aave-v3-origin/contracts/interfaces/IAaveIncentivesController.sol';
 import {IInitializableAToken} from './interfaces/IInitializableAToken.sol';
 import {ScaledBalanceTokenBase} from './ScaledBalanceTokenBase.sol';
 import {IncentivizedERC20} from './IncentivizedERC20.sol';

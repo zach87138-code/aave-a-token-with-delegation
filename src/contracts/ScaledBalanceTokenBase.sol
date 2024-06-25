@@ -2,10 +2,10 @@
 pragma solidity ^0.8.10;
 
 import {SafeCast} from './dependencies/SafeCast.sol';
-import {Errors} from 'aave-v3-core/contracts/protocol/libraries/helpers/Errors.sol';
-import {WadRayMath} from 'aave-v3-core/contracts/protocol/libraries/math/WadRayMath.sol';
-import {IPool} from 'aave-v3-core/contracts/interfaces/IPool.sol';
-import {IScaledBalanceToken} from 'aave-v3-core/contracts/interfaces/IScaledBalanceToken.sol';
+import {Errors} from 'aave-v3-origin/contracts/protocol/libraries/helpers/Errors.sol';
+import {WadRayMath} from 'aave-v3-origin/contracts/protocol/libraries/math/WadRayMath.sol';
+import {IPool} from 'aave-v3-origin/contracts/interfaces/IPool.sol';
+import {IScaledBalanceToken} from 'aave-v3-origin/contracts/interfaces/IScaledBalanceToken.sol';
 import {MintableIncentivizedERC20} from './MintableIncentivizedERC20.sol';
 
 /**

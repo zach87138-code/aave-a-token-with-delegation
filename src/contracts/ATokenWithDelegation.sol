@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {IPool} from 'aave-v3-core/contracts/interfaces/IPool.sol';
+import {IPool} from 'aave-v3-origin/contracts/interfaces/IPool.sol';
 import {BaseDelegation} from 'aave-token-v3/BaseDelegation.sol';
 import {AToken} from './AToken.sol';
 

@@ -8,7 +8,7 @@ import {IGovernancePowerDelegationToken} from 'aave-token-v3/interfaces/IGoverna
 import {DelegationMode} from 'aave-token-v3/DelegationAwareBalance.sol';
 import {DelegationBaseTest} from './DelegationBaseTest.sol';
 import {PermitHelpers} from './PermitHelpers.sol';
-import {GPv2SafeERC20} from 'aave-v3-core/contracts/dependencies/gnosis/contracts/GPv2SafeERC20.sol';
+import {GPv2SafeERC20} from 'aave-v3-origin/contracts/dependencies/gnosis/contracts/GPv2SafeERC20.sol';
 
 contract ATokenWithDelegationTest is DelegationBaseTest {
   address constant USER_1 = address(123);

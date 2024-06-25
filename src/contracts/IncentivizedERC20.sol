@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-import {Context} from 'aave-v3-core/contracts/dependencies/openzeppelin/contracts/Context.sol';
-import {IERC20} from 'aave-v3-core/contracts/dependencies/openzeppelin/contracts/IERC20.sol';
-import {IERC20Detailed} from 'aave-v3-core/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol';
+import {Context} from 'aave-v3-origin/contracts/dependencies/openzeppelin/contracts/Context.sol';
+import {IERC20} from 'aave-v3-origin/contracts/dependencies/openzeppelin/contracts/IERC20.sol';
+import {IERC20Detailed} from 'aave-v3-origin/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol';
 import {SafeCast} from './dependencies/SafeCast.sol';
-import {WadRayMath} from 'aave-v3-core/contracts/protocol/libraries/math/WadRayMath.sol';
-import {Errors} from 'aave-v3-core/contracts/protocol/libraries/helpers/Errors.sol';
-import {IAaveIncentivesController} from 'aave-v3-core/contracts/interfaces/IAaveIncentivesController.sol';
-import {IPoolAddressesProvider} from 'aave-v3-core/contracts/interfaces/IPoolAddressesProvider.sol';
-import {IPool} from 'aave-v3-core/contracts/interfaces/IPool.sol';
-import {IACLManager} from 'aave-v3-core/contracts/interfaces/IACLManager.sol';
+import {WadRayMath} from 'aave-v3-origin/contracts/protocol/libraries/math/WadRayMath.sol';
+import {Errors} from 'aave-v3-origin/contracts/protocol/libraries/helpers/Errors.sol';
+import {IAaveIncentivesController} from 'aave-v3-origin/contracts/interfaces/IAaveIncentivesController.sol';
+import {IPoolAddressesProvider} from 'aave-v3-origin/contracts/interfaces/IPoolAddressesProvider.sol';
+import {IPool} from 'aave-v3-origin/contracts/interfaces/IPool.sol';
+import {IACLManager} from 'aave-v3-origin/contracts/interfaces/IACLManager.sol';
 import {DelegationMode} from 'aave-token-v3/DelegationAwareBalance.sol';
 
 /**
