@@ -14,7 +14,7 @@ In addition to the inherited implementation from Aave v3, the new logic on aAAVE
 
 ## Setup
 
-This repository requires having Foundry installed in the running machine. Instructions on how to do it [HERE](https://github.com/foundry-rs/foundry#installation).
+This repository requires having Foundry installed in the running machine. Instructions on how to do it [HERE](.
 
 After having installed Foundry:
 1. Add a `.env` file with properly configured `RPC_MAINNET`, following the example on `.env.example`
@@ -40,5 +40,5 @@ After having installed Foundry:
 Copyright © 2023, Aave DAO, represented by its governance smart contracts.
 
 Created by [BGD Labs](https://bgdlabs.com/).
-
+https://github.com/foundry-rs/foundry#installation)
 [MIT license](./LICENSE)
